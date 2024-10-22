@@ -1,6 +1,6 @@
 # AuthX: Ultimate Authentication System
 
-AuthX is a simple and flexible system for handling user logins and signups. It comes with the basic features you need, like creating accounts, logging in, verifying emails, resetting passwords, and giving users access to certain areas using JWT. 
+This is my boilderplate for a simple and flexible system for handling user logins and signups. It comes with the basic features you need, like creating accounts, logging in, verifying emails, resetting passwords, and giving users access to certain areas using JWT. 
 
 It’s a great starting point if you need to set up full authentication for your app. The frontend is made with **React**, the backend runs on **Express**, and **MongoDB** is used as the database. You can easily change or add features to fit your project.
 
@@ -46,12 +46,12 @@ It’s a great starting point if you need to set up full authentication for your
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ramxcodes/AuthX.git
+   git clone https://github.com/MahinAshraful/userauthtemplateMERN.git
    ```
    
 2. Navigate into the project directory:
    ```bash
-   cd AuthX
+   cd userauthtemplateMERN
    ```
 
 3. Install server dependencies:
@@ -85,7 +85,7 @@ It’s a great starting point if you need to set up full authentication for your
 
 2. Start the React frontend:
    ```bash
-   cd client
+   cd frontend
    npm start
    ```
 
@@ -106,10 +106,3 @@ It’s a great starting point if you need to set up full authentication for your
 This project is licensed under the MIT License.
 
 ---
-
-## Creator
-
-- **Name**: Ramkrishna Swarnkar
-- **GitHub**: [@ramxcodes](https://github.com/ramxcodes)
-- **LinkedIn**: [@ramxcodes](https://www.linkedin.com/in/ramxcodes)
-- **Twitter**: [@ramxcodes](https://twitter.com/ramxcodes)

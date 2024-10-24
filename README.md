@@ -1,5 +1,3 @@
-# AuthX: Ultimate Authentication System
-
 This is my boilderplate for a simple and flexible system for handling user logins and signups. It comes with the basic features you need, like creating accounts, logging in, verifying emails, resetting passwords, and giving users access to certain areas using JWT. 
 
 It’s a great starting point if you need to set up full authentication for your app. The frontend is made with **React**, the backend runs on **Express**, and **MongoDB** is used as the database. You can easily change or add features to fit your project.

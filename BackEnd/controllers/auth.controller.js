@@ -59,6 +59,9 @@ export const signup = async (req, res) => {
 	}
 };
 
+
+
+
 // Email verification controller
 export const verifyEmail = async (req, res) => {
 	const { code } = req.body;
@@ -99,6 +102,9 @@ export const verifyEmail = async (req, res) => {
 	}
 };
 
+
+
+
 // Login controller
 export const login = async (req, res) => {
 	const { email, password } = req.body;
@@ -137,6 +143,9 @@ export const login = async (req, res) => {
 		res.status(500).json({ success: false, message: error.message });
 	}
 };
+
+
+
 
 // Logout controller
 export const logout = async (req, res) => {
@@ -180,6 +189,9 @@ export const forgotPassword = async (req, res) => {
 	}
 };
 
+
+
+
 // Reset password controller
 export const resetPassword = async (req, res) => {
 	try {
@@ -216,6 +228,9 @@ export const resetPassword = async (req, res) => {
 		res.status(400).json({ success: false, message: error.message });
 	}
 };
+
+
+
 
 // Authentication check controller
 export const checkAuth = async (req, res) => {
